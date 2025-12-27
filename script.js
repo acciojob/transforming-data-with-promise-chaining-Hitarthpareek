@@ -36,7 +36,7 @@ const promise4 = (data)=>{
 const promise5 = (data)=>{
 	return new Promise((resolve)=>{
 		setTimeout(()=>{
-			output.textContent=`Result: ${data+10}`
+			output.textContent=`Final Result: ${data+10}`
 					resolve(data+10)   
 					   },1000)
 	})
